@@ -1,0 +1,630 @@
+Begin Object Class=/Script/Engine.Material Name="M_PH_Orb_Color"
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_20"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_21"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_22"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDepthFade Name="MaterialExpressionDepthFade_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDynamicParameter Name="MaterialExpressionDynamicParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPanner Name="MaterialExpressionPanner_29"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPanner Name="MaterialExpressionPanner_30"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPanner Name="MaterialExpressionPanner_31"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPanner Name="MaterialExpressionPanner_32"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionParticleColor Name="MaterialExpressionParticleColor_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_32"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_33"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_34"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_29"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_30"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_31"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_32"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_43"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_44"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_45"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_46"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_47"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_19"
+      A=(Expression=MaterialExpressionMultiply'"M_PH_Orb_Color:MaterialExpressionMultiply_19"')
+      B=(Expression=MaterialExpressionAdd'"M_PH_Orb_Color:MaterialExpressionAdd_22"')
+      MaterialExpressionEditorX=-1408
+      MaterialExpressionEditorY=-304
+      MaterialExpressionGuid=FDA0CCD6465190453CA6008635686E61
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_20"
+      A=(Expression=MaterialExpressionMultiply'"M_PH_Orb_Color:MaterialExpressionMultiply_19"')
+      B=(Expression=MaterialExpressionAdd'"M_PH_Orb_Color:MaterialExpressionAdd_21"')
+      MaterialExpressionEditorX=-1408
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=6EC6E83343CE0BEF96282982F741425E
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_21"
+      A=(Expression=MaterialExpressionTextureCoordinate'"M_PH_Orb_Color:MaterialExpressionTextureCoordinate_29"')
+      MaterialExpressionEditorX=-1520
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=EDBCBE6B44089296E16ECAA1B0EC82C0
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_22"
+      A=(Expression=MaterialExpressionTextureCoordinate'"M_PH_Orb_Color:MaterialExpressionTextureCoordinate_30"')
+      MaterialExpressionEditorX=-1520
+      MaterialExpressionEditorY=-240
+      MaterialExpressionGuid=2D221846470DAC86976C979406C8F1FC
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_0"
+      Input=(Expression=MaterialExpressionDynamicParameter'"M_PH_Orb_Color:MaterialExpressionDynamicParameter_0"',Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=-496
+      MaterialExpressionGuid=6DFAE0CD409421964FD27EBA9A607743
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_7"
+      Input=(Expression=MaterialExpressionLinearInterpolate'"M_PH_Orb_Color:MaterialExpressionLinearInterpolate_19"')
+      MaterialExpressionEditorX=112
+      MaterialExpressionEditorY=-304
+      MaterialExpressionGuid=7144241A44E6511E243171911D66CECC
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_10"
+      Input=(Expression=MaterialExpressionTextureSample'"M_PH_Orb_Color:MaterialExpressionTextureSample_47"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      R=True
+      G=True
+      MaterialExpressionEditorX=-2096
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=1427C8934C648B49349826A5FB51B2EB
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_9"
+      Input=(Expression=MaterialExpressionTextureSample'"M_PH_Orb_Color:MaterialExpressionTextureSample_46"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      R=True
+      G=True
+      MaterialExpressionEditorX=-2096
+      MaterialExpressionEditorY=-304
+      MaterialExpressionGuid=1427C8934C648B49349826A5FB51B2EB
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_12"
+      R=50.000000
+      MaterialExpressionEditorX=-449
+      MaterialExpressionEditorY=655
+      MaterialExpressionGuid=646D238D479D8EADB848C5901D3E0D31
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=0.150000
+      MaterialExpressionEditorX=-966
+      MaterialExpressionEditorY=242
+      MaterialExpressionGuid=FF36B5084E265AFEA6E844B1A366A08C
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_4"
+      R=8.000000
+      MaterialExpressionEditorX=-912
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=FF36B5084E265AFEA6E844B1A366A08C
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_1"
+      Constant=(R=0.700631,G=0.321636,B=1.000000,A=1.000000)
+      MaterialExpressionEditorX=-624
+      MaterialExpressionEditorY=-288
+      MaterialExpressionGuid=D250F13447B292E3496ED2B2A9F04EBB
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_10"
+      Constant=(R=0.214890,G=0.265000,B=0.208093,A=1.000000)
+      MaterialExpressionEditorX=-640
+      MaterialExpressionEditorY=-752
+      MaterialExpressionGuid=D250F13447B292E3496ED2B2A9F04EBB
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_3"
+      Constant=(R=81782.984375,G=4611.915527,B=150000.000000,A=1.000000)
+      MaterialExpressionEditorX=-336
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=5914E2C440A68714AA3508B447BCDD39
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_4"
+      Constant=(R=1.000000,G=0.061336,B=0.041440,A=1.000000)
+      MaterialExpressionEditorX=-624
+      MaterialExpressionEditorY=-1072
+      MaterialExpressionGuid=D250F13447B292E3496ED2B2A9F04EBB
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_5"
+      Constant=(R=0.000350,G=0.000200,B=0.002000,A=1.000000)
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=-432
+      MaterialExpressionGuid=7E4E669146FFDEE4B1EB6C8FD3ACD3EA
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_6"
+      Constant=(R=402.229858,G=43.877007,B=1000.000000,A=1.000000)
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=5914E2C440A68714AA3508B447BCDD39
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_7"
+      Constant=(R=0.001000,G=0.001000,B=0.001000,A=1.000000)
+      MaterialExpressionEditorX=-48
+      MaterialExpressionEditorY=-512
+      MaterialExpressionGuid=7E4E669146FFDEE4B1EB6C8FD3ACD3EA
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_9"
+      Constant=(R=0.117298,G=0.058977,B=1.000000,A=1.000000)
+      MaterialExpressionEditorX=-640
+      MaterialExpressionEditorY=-912
+      MaterialExpressionGuid=D250F13447B292E3496ED2B2A9F04EBB
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionDepthFade_0"
+      InOpacity=(Expression=MaterialExpressionMultiply'"M_PH_Orb_Color:MaterialExpressionMultiply_0"')
+      MaterialExpressionEditorX=-112
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=1B4BBBA44ED1D955586A89B1712571CC
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionDynamicParameter_0"
+      ParamNames(0)="PickColor"
+      MaterialExpressionEditorX=-640
+      MaterialExpressionEditorY=-592
+      MaterialExpressionGuid=74CB01DA48297F82D79739AE0C0BE3C0
+      Material=Material'"M_PH_Orb_Color"'
+      Outputs(0)=(OutputName="PickColor")
+      Outputs(1)=(OutputName="Param2")
+      Outputs(2)=(OutputName="Param3")
+      Outputs(3)=(OutputName="Param4")
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_17"
+      A=(Expression=MaterialExpressionPower'"M_PH_Orb_Color:MaterialExpressionPower_33"')
+      B=(Expression=MaterialExpressionPower'"M_PH_Orb_Color:MaterialExpressionPower_32"')
+      MaterialExpressionEditorX=-624
+      MaterialExpressionEditorY=-144
+      MaterialExpressionGuid=5307C6A344B188BC74678D99C00363F6
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_18"
+      A=(Expression=MaterialExpressionComponentMask'"M_PH_Orb_Color:MaterialExpressionComponentMask_9"')
+      B=(Expression=MaterialExpressionComponentMask'"M_PH_Orb_Color:MaterialExpressionComponentMask_10"')
+      Alpha=(Expression=MaterialExpressionPower'"M_PH_Orb_Color:MaterialExpressionPower_34"')
+      MaterialExpressionEditorX=-1968
+      MaterialExpressionEditorY=-256
+      MaterialExpressionGuid=5307C6A344B188BC74678D99C00363F6
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_19"
+      A=(Expression=MaterialExpressionMultiply'"M_PH_Orb_Color:MaterialExpressionMultiply_1"')
+      B=(Expression=MaterialExpressionMaterialFunctionCall'"M_PH_Orb_Color:MaterialExpressionMaterialFunctionCall_0"')
+      Alpha=(Expression=MaterialExpressionLinearInterpolate'"M_PH_Orb_Color:MaterialExpressionLinearInterpolate_17"')
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=-176
+      MaterialExpressionGuid=0D2E22FE4BEEB260ED62E585B049A66E
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.3ColorBlend"'
+      FunctionInputs(0)=(ExpressionInputId=0F9A76BD46482F17CB0F9B9E8DC7461F,Input=(Expression=MaterialExpressionConstant3Vector'"M_PH_Orb_Color:MaterialExpressionConstant3Vector_4"',InputName="A"))
+      FunctionInputs(1)=(ExpressionInputId=AE0DE178463BEA2754EBB1BBEDB93A90,Input=(Expression=MaterialExpressionConstant3Vector'"M_PH_Orb_Color:MaterialExpressionConstant3Vector_9"',InputName="B"))
+      FunctionInputs(2)=(ExpressionInputId=61C488B245FE4367E455449EFD5A321E,Input=(Expression=MaterialExpressionConstant3Vector'"M_PH_Orb_Color:MaterialExpressionConstant3Vector_10"',InputName="C"))
+      FunctionInputs(3)=(ExpressionInputId=9DFF0F944D53A801249A0EA733BF77B4,Input=(Expression=MaterialExpressionClamp'"M_PH_Orb_Color:MaterialExpressionClamp_0"',InputName="Alpha"))
+      FunctionOutputs(0)=(ExpressionOutputId=D2EC7C0E4248B5CAB07D88B2FEF3C938,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=-672
+      MaterialExpressionGuid=2D48B1304393CB2B7C6D4D98F94DA70C
+      Material=Material'"M_PH_Orb_Color"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_16"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/DeriveHDRfromLDR.DeriveHDRfromLDR"'
+      FunctionInputs(0)=(ExpressionInputId=C4EBBE9F41CF03A3A2F87D8EC3669791,Input=(Expression=MaterialExpressionClamp'"M_PH_Orb_Color:MaterialExpressionClamp_7"',InputName="LDR Input"))
+      FunctionInputs(1)=(ExpressionInputId=756D1A12475F1D8CF738BA922AA8FEA1,Input=(OutputIndex=-1,InputName="HDR Dynamic Range"))
+      FunctionInputs(2)=(ExpressionInputId=5719080D4FB24C405C3AD6A648544B97,Input=(Expression=MaterialExpressionMultiply'"M_PH_Orb_Color:MaterialExpressionMultiply_5"',InputName="HDR Tint"))
+      FunctionInputs(3)=(ExpressionInputId=D686BF0E45B7044D266F7082FC8489A2,Input=(OutputIndex=-1,InputName="HDR Intensity Multiplier"))
+      FunctionInputs(4)=(ExpressionInputId=DCD9EB8B47C6EF64A85B9EA315A8D8B7,Input=(OutputIndex=-1,InputName="Derive HDR Power"))
+      FunctionInputs(5)=(ExpressionInputId=2243B2A34598BCA4C101F8AAA6682FE3,Input=(OutputIndex=-1,InputName="Desaturate Luminance"))
+      FunctionInputs(6)=(ExpressionInputId=8AF0354E4861A7F667E9B69EF5B53EA3,Input=(OutputIndex=-1,InputName="Derive Luminance from Linear"))
+      FunctionOutputs(0)=(ExpressionOutputId=071328F942D28423DCD2C284BD51D923,Output=(OutputName="RemappedRange"))
+      MaterialExpressionEditorX=320
+      MaterialExpressionEditorY=-240
+      MaterialExpressionGuid=F503E6124E28F621D58AFD88332A8335
+      Material=Material'"M_PH_Orb_Color"'
+      Outputs(0)=(OutputName="RemappedRange")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_17"
+      MaterialFunction=MaterialFunction'"/Game/ParagonMinions/FX/Materials/Functions/FX_EmissiveModulate.FX_EmissiveModulate"'
+      FunctionInputs(0)=(ExpressionInputId=97A5E8C9451DBF7FBCBCBCBB7A5377CA,Input=(Expression=MaterialExpressionMultiply'"M_PH_Orb_Color:MaterialExpressionMultiply_10"',InputName="In"))
+      FunctionOutputs(0)=(ExpressionOutputId=4FB6A48D4A693488FA2F29A4A211E00A,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=688
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=D972C9594E724AD403D34BAF9587795A
+      Material=Material'"M_PH_Orb_Color"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction=MaterialFunction'"/Game/ParagonMinions/FX/Materials/Functions/FadeBasedOnViewAngle.FadeBasedOnViewAngle"'
+      FunctionInputs(0)=(ExpressionInputId=D27444E34A35A8B3EA75D0AEB1C797E9,Input=(Expression=MaterialExpressionParticleColor'"M_PH_Orb_Color:MaterialExpressionParticleColor_0"',OutputIndex=3,InputName="FadeSensitivity (optional)",Mask=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=7BFA402B4BC8BAD95EFB3D948A932901,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-832
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=C2E17FB44FBA40EC2B5E86ADBD7BE449
+      Material=Material'"M_PH_Orb_Color"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_3"
+      MaterialFunction=MaterialFunction'"/Game/ParagonMinions/FX/Materials/Functions/FadeBasedOnViewAngle.FadeBasedOnViewAngle"'
+      FunctionInputs(0)=(ExpressionInputId=D27444E34A35A8B3EA75D0AEB1C797E9,Input=(Expression=MaterialExpressionParticleColor'"M_PH_Orb_Color:MaterialExpressionParticleColor_0"',OutputIndex=1,InputName="FadeSensitivity (optional)",Mask=1,MaskR=1))
+      FunctionOutputs(0)=(ExpressionOutputId=7BFA402B4BC8BAD95EFB3D948A932901,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-800
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=C2E17FB44FBA40EC2B5E86ADBD7BE449
+      Material=Material'"M_PH_Orb_Color"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionOneMinus'"M_PH_Orb_Color:MaterialExpressionOneMinus_1"')
+      B=(Expression=MaterialExpressionMaterialFunctionCall'"M_PH_Orb_Color:MaterialExpressionMaterialFunctionCall_3"')
+      MaterialExpressionEditorX=-400
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=A1520CEF405C6D2A9B0B498F33E71962
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"M_PH_Orb_Color:MaterialExpressionMaterialFunctionCall_0"')
+      B=(Expression=MaterialExpressionConstant3Vector'"M_PH_Orb_Color:MaterialExpressionConstant3Vector_7"')
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=-368
+      MaterialExpressionGuid=92BA861D4295DC1D0026E2B6DD78DB17
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_10"
+      A=(Expression=MaterialExpressionParticleColor'"M_PH_Orb_Color:MaterialExpressionParticleColor_0"',OutputIndex=2,Mask=1,MaskG=1)
+      B=(Expression=MaterialExpressionMultiply'"M_PH_Orb_Color:MaterialExpressionMultiply_5"')
+      MaterialExpressionEditorX=224
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=AAFCC0C948441B2A421A59A2A206120F
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_11"
+      A=(Expression=MaterialExpressionParticleColor'"M_PH_Orb_Color:MaterialExpressionParticleColor_0"',OutputIndex=4,Mask=1,MaskA=1)
+      B=(Expression=MaterialExpressionDepthFade'"M_PH_Orb_Color:MaterialExpressionDepthFade_0"')
+      MaterialExpressionEditorX=32
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=BA7ACCE4418F8727EAE267B0D6727108
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_12"
+      A=(Expression=MaterialExpressionMultiply'"M_PH_Orb_Color:MaterialExpressionMultiply_0"')
+      B=(Expression=MaterialExpressionConstant'"M_PH_Orb_Color:MaterialExpressionConstant_12"')
+      MaterialExpressionEditorX=-266
+      MaterialExpressionEditorY=606
+      MaterialExpressionGuid=1DF9105B420DE0184FDC51B15998175D
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_19"
+      A=(Expression=MaterialExpressionLinearInterpolate'"M_PH_Orb_Color:MaterialExpressionLinearInterpolate_18"')
+      ConstB=0.200000
+      MaterialExpressionEditorX=-1824
+      MaterialExpressionEditorY=-240
+      MaterialExpressionGuid=17AC2AF14B99B794F7C27FB00B0DB059
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_5"
+      A=(Expression=MaterialExpressionLinearInterpolate'"M_PH_Orb_Color:MaterialExpressionLinearInterpolate_19"')
+      B=(Expression=MaterialExpressionConstant3Vector'"M_PH_Orb_Color:MaterialExpressionConstant3Vector_6"')
+      ConstB=25.000000
+      MaterialExpressionEditorX=-112
+      MaterialExpressionEditorY=96
+      MaterialExpressionGuid=C4EA3B254BE6FC1F7E54A4993B218DD5
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_1"
+      Input=(Expression=MaterialExpressionMaterialFunctionCall'"M_PH_Orb_Color:MaterialExpressionMaterialFunctionCall_2"')
+      MaterialExpressionEditorX=-560
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=5E66C9DC45DDE78C0ADD86B4314D2B03
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_29"
+      Coordinate=(Expression=MaterialExpressionAdd'"M_PH_Orb_Color:MaterialExpressionAdd_19"')
+      SpeedX=0.150000
+      MaterialExpressionEditorX=-1296
+      MaterialExpressionEditorY=-288
+      MaterialExpressionGuid=B352681D4FB12215EBDC5D9FF60AF2CD
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_30"
+      Coordinate=(Expression=MaterialExpressionAdd'"M_PH_Orb_Color:MaterialExpressionAdd_20"')
+      SpeedY=0.050000
+      MaterialExpressionEditorX=-1280
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=B352681D4FB12215EBDC5D9FF60AF2CD
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_31"
+      Coordinate=(Expression=MaterialExpressionTextureCoordinate'"M_PH_Orb_Color:MaterialExpressionTextureCoordinate_32"')
+      SpeedY=0.250000
+      MaterialExpressionEditorX=-2496
+      MaterialExpressionEditorY=-256
+      MaterialExpressionGuid=B352681D4FB12215EBDC5D9FF60AF2CD
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_32"
+      Coordinate=(Expression=MaterialExpressionTextureCoordinate'"M_PH_Orb_Color:MaterialExpressionTextureCoordinate_31"')
+      SpeedX=0.250000
+      MaterialExpressionEditorX=-2496
+      MaterialExpressionEditorY=-480
+      MaterialExpressionGuid=B352681D4FB12215EBDC5D9FF60AF2CD
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionParticleColor_0"
+      MaterialExpressionEditorX=-112
+      MaterialExpressionEditorY=-272
+      MaterialExpressionGuid=6A07BF0B4D034A9826D6DF9F5E54DB2D
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionPower_32"
+      Base=(Expression=MaterialExpressionTextureSample'"M_PH_Orb_Color:MaterialExpressionTextureSample_43"',OutputIndex=2,Mask=1,MaskG=1)
+      Exponent=(OutputIndex=2,Mask=1,MaskB=1)
+      ConstExponent=24.000000
+      MaterialExpressionEditorX=-928
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=CE21DCE944040F41FDD58B8067500661
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionPower_33"
+      Base=(Expression=MaterialExpressionTextureSample'"M_PH_Orb_Color:MaterialExpressionTextureSample_44"',OutputIndex=2,Mask=1,MaskG=1)
+      Exponent=(OutputIndex=2,Mask=1,MaskB=1)
+      ConstExponent=24.000000
+      MaterialExpressionEditorX=-896
+      MaterialExpressionEditorY=-240
+      MaterialExpressionGuid=CE21DCE944040F41FDD58B8067500661
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionPower_34"
+      Base=(Expression=MaterialExpressionTextureSample'"M_PH_Orb_Color:MaterialExpressionTextureSample_45"',OutputIndex=2,Mask=1,MaskG=1)
+      ConstExponent=3.000000
+      MaterialExpressionEditorX=-2176
+      MaterialExpressionEditorY=-48
+      MaterialExpressionGuid=F5F0501546C00736DD8243A0A1A7C133
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_29"
+      UTiling=2.000000
+      VTiling=2.000000
+      MaterialExpressionEditorX=-1648
+      MaterialExpressionEditorY=-48
+      MaterialExpressionGuid=6285C8014D543E3BFC508CA035C24D9F
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_30"
+      CoordinateIndex=1
+      MaterialExpressionEditorX=-1664
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=6285C8014D543E3BFC508CA035C24D9F
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_31"
+      CoordinateIndex=1
+      MaterialExpressionEditorX=-2624
+      MaterialExpressionEditorY=-480
+      MaterialExpressionGuid=6285C8014D543E3BFC508CA035C24D9F
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_32"
+      UTiling=2.000000
+      VTiling=2.000000
+      MaterialExpressionEditorX=-2640
+      MaterialExpressionEditorY=-256
+      MaterialExpressionGuid=6285C8014D543E3BFC508CA035C24D9F
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_43"
+      Coordinates=(Expression=MaterialExpressionPanner'"M_PH_Orb_Color:MaterialExpressionPanner_30"')
+      Texture=Texture2D'"/Game/ParagonMinions/FX/Textures/Tile/Energy/Plasma/T_Sparrow_Poster_Tendrils_v2_Seamless.T_Sparrow_Poster_Tendrils_v2_Seamless"'
+      SamplerType=SAMPLERTYPE_LinearGrayscale
+      MaterialExpressionEditorX=-1120
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=0C9A12F94DED48B7776BC38E1A579E22
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_44"
+      Coordinates=(Expression=MaterialExpressionPanner'"M_PH_Orb_Color:MaterialExpressionPanner_29"')
+      Texture=Texture2D'"/Game/ParagonMinions/FX/Textures/Tile/Energy/Plasma/T_Sparrow_Poster_Tendrils_v2_Seamless.T_Sparrow_Poster_Tendrils_v2_Seamless"'
+      SamplerType=SAMPLERTYPE_LinearGrayscale
+      MaterialExpressionEditorX=-1104
+      MaterialExpressionEditorY=-304
+      MaterialExpressionGuid=0C9A12F94DED48B7776BC38E1A579E22
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_45"
+      Texture=Texture2D'"/Game/ParagonMinions/FX/Textures/Masks/T_SoftEdge_M.T_SoftEdge_M"'
+      MaterialExpressionEditorX=-2336
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=F9F30C17467AB8494558ADBF5A5FED94
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_46"
+      Coordinates=(Expression=MaterialExpressionPanner'"M_PH_Orb_Color:MaterialExpressionPanner_32"')
+      Texture=Texture2D'"/Game/ParagonMinions/FX/Textures/Water/T_WaterFlow_Tiling01.T_WaterFlow_Tiling01"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-2336
+      MaterialExpressionEditorY=-480
+      MaterialExpressionGuid=0C9A12F94DED48B7776BC38E1A579E22
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_47"
+      Coordinates=(Expression=MaterialExpressionPanner'"M_PH_Orb_Color:MaterialExpressionPanner_31"')
+      Texture=Texture2D'"/Game/ParagonMinions/FX/Textures/Water/T_WaterFlow_Tiling01.T_WaterFlow_Tiling01"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-2320
+      MaterialExpressionEditorY=-272
+      MaterialExpressionGuid=0C9A12F94DED48B7776BC38E1A579E22
+      Material=Material'"M_PH_Orb_Color"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   EmissiveColor=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_17"')
+   Opacity=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_11"')
+   BlendMode=BLEND_Translucent
+   ShadingModel=MSM_Unlit
+   ShadingModels=(ShadingModelField=1)
+   bScreenSpaceReflections=True
+   TwoSided=True
+   TranslucencyLightingMode=TLM_Surface
+   bUsedWithMeshParticles=True
+   EditorX=464
+   Expressions(0)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_17"'
+   Expressions(1)=MaterialExpressionMultiply'"MaterialExpressionMultiply_11"'
+   Expressions(2)=MaterialExpressionMultiply'"MaterialExpressionMultiply_10"'
+   Expressions(3)=MaterialExpressionMultiply'"MaterialExpressionMultiply_5"'
+   Expressions(4)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(5)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_19"'
+   Expressions(6)=MaterialExpressionAdd'"MaterialExpressionAdd_22"'
+   Expressions(7)=MaterialExpressionAdd'"MaterialExpressionAdd_21"'
+   Expressions(8)=MaterialExpressionAdd'"MaterialExpressionAdd_20"'
+   Expressions(9)=MaterialExpressionAdd'"MaterialExpressionAdd_19"'
+   Expressions(10)=MaterialExpressionMultiply'"MaterialExpressionMultiply_19"'
+   Expressions(11)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_10"'
+   Expressions(12)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_9"'
+   Expressions(13)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_47"'
+   Expressions(14)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_32"'
+   Expressions(15)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_46"'
+   Expressions(16)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_31"'
+   Expressions(17)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_18"'
+   Expressions(18)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_45"'
+   Expressions(19)=MaterialExpressionPower'"MaterialExpressionPower_34"'
+   Expressions(20)=MaterialExpressionPanner'"MaterialExpressionPanner_32"'
+   Expressions(21)=MaterialExpressionPanner'"MaterialExpressionPanner_31"'
+   Expressions(22)=MaterialExpressionPanner'"MaterialExpressionPanner_30"'
+   Expressions(23)=MaterialExpressionPanner'"MaterialExpressionPanner_29"'
+   Expressions(24)=MaterialExpressionPower'"MaterialExpressionPower_33"'
+   Expressions(25)=MaterialExpressionPower'"MaterialExpressionPower_32"'
+   Expressions(26)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_17"'
+   Expressions(27)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_44"'
+   Expressions(28)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_30"'
+   Expressions(29)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_29"'
+   Expressions(30)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_43"'
+   Expressions(31)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_1"'
+   Expressions(32)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_5"'
+   Expressions(33)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"'
+   Expressions(34)=MaterialExpressionConstant'"MaterialExpressionConstant_3"'
+   Expressions(35)=MaterialExpressionOneMinus'"MaterialExpressionOneMinus_1"'
+   Expressions(36)=MaterialExpressionConstant'"MaterialExpressionConstant_4"'
+   Expressions(37)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_3"'
+   Expressions(38)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_3"'
+   Expressions(39)=MaterialExpressionParticleColor'"MaterialExpressionParticleColor_0"'
+   Expressions(40)=MaterialExpressionDepthFade'"MaterialExpressionDepthFade_0"'
+   Expressions(41)=MaterialExpressionMultiply'"MaterialExpressionMultiply_12"'
+   Expressions(42)=MaterialExpressionConstant'"MaterialExpressionConstant_12"'
+   Expressions(43)=MaterialExpressionClamp'"MaterialExpressionClamp_7"'
+   Expressions(44)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_16"'
+   Expressions(45)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_6"'
+   Expressions(46)=MaterialExpressionDynamicParameter'"MaterialExpressionDynamicParameter_0"'
+   Expressions(47)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(48)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_4"'
+   Expressions(49)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_9"'
+   Expressions(50)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_10"'
+   Expressions(51)=MaterialExpressionClamp'"MaterialExpressionClamp_0"'
+   Expressions(52)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(53)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_7"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=E2ACF554462B6475C649F9AF5F945E64
+   CachedExpressionData=(Parameters=(EditorOnlyEntries[0]=(NameHashes=(12994812403483032152),ParameterInfos=((Name="Luminance from Linear")),ExpressionGuids=(25B514244D009E1DE7E15DB76B796BDD)),StaticSwitchValues=(False)),ReferencedTextures=(Texture2D'"/Game/ParagonMinions/FX/Textures/Water/T_WaterFlow_Tiling01.T_WaterFlow_Tiling01"',Texture2D'"/Game/ParagonMinions/FX/Textures/Masks/T_SoftEdge_M.T_SoftEdge_M"',Texture2D'"/Game/ParagonMinions/FX/Textures/Tile/Energy/Plasma/T_Sparrow_Poster_Tendrils_v2_Seamless.T_Sparrow_Poster_Tendrils_v2_Seamless"'),FunctionInfos=((StateId=3783140F48CEFF98EA860D855064FF94,Function=MaterialFunction'"/Game/ParagonMinions/FX/Materials/Functions/FX_EmissiveModulate.FX_EmissiveModulate"'),(StateId=030731FA4DBAC2673E200796C91F33D2,Function=MaterialFunction'"/Game/ParagonMinions/FX/Materials/Functions/FadeBasedOnViewAngle.FadeBasedOnViewAngle"'),(StateId=030731FA4DBAC2673E200796C91F33D2,Function=MaterialFunction'"/Game/ParagonMinions/FX/Materials/Functions/FadeBasedOnViewAngle.FadeBasedOnViewAngle"'),(StateId=FC5000CA4D8CA0692B6968BF9ED68904,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/DeriveHDRfromLDR.DeriveHDRfromLDR"'),(StateId=B7C71B914E2BB667772D6CBE2AB55665,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.LinearGradient"'),(StateId=E36855D34F101683B3F0D5904E53AD6F,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.3ColorBlend"')),DynamicParameterNames=("PickColor","Param2","Param3","Param4"),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=D708622D4ABFC9352F7D7FB516D3B981
+   ReferencedTextureGuids(1)=9B484BC146D148B89A9A4F83F689870D
+   ReferencedTextureGuids(2)=82E8420F4FDC4F01B1A65AAA4ED4CF0B
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   ParameterOverviewExpansion=(("-12Global Derive HDR from LDR", True))
+   LightingGuid=97B9F8E742E153B2B9DCF6B16CF17C5A
+End Object
